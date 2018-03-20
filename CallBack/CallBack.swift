@@ -51,7 +51,7 @@ final class CallBack {
 
 
 /// callback object
-struct CallBackInstance<T, U>: Callable {
+fileprivate struct CallBackInstance<T, U>: Callable {
     
     fileprivate let callBack: Handler
     
