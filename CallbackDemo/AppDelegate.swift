@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CallBack
+//  CallbackDemo
 //
-//  Created by 志内 幸彦 on 2018/03/12.
-//  Copyright © 2018年 shiuchi. All rights reserved.
+//  Created by 志内幸彦 on 2018/12/23.
+//  Copyright © 2018 shiuchi. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
