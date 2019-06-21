@@ -98,9 +98,9 @@
 		F4932CDF22BBCC3B004397BB /* SwiftCallback */ = {
 			isa = PBXGroup;
 			children = (
+				F4932D3722BD58CC004397BB /* Classes */,
 				F4932CE022BBCC3B004397BB /* SwiftCallback.h */,
 				F4932CE122BBCC3B004397BB /* Info.plist */,
-				F4932CF722BBCC57004397BB /* Callback.swift */,
 			);
 			path = SwiftCallback;
 			sourceTree = "<group>";
@@ -126,6 +126,14 @@
 				F4932D3522BCECD4004397BB /* SampleButton.swift */,
 			);
 			path = SwiftCallbackSample;
+			sourceTree = "<group>";
+		};
+		F4932D3722BD58CC004397BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4932CF722BBCC57004397BB /* Callback.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
