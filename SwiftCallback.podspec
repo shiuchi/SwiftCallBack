@@ -5,15 +5,15 @@ Pod::Spec.new do |s|
   s.summary      = "SwiftCallback."
 
   
-  s.description  =  "SwiftCallback"
+  s.description  =  "Callback for Swift"
 
   s.homepage     = "https://github.com/shiuchi/SwiftCallBack"
   s.license      = "MIT"
   s.author             = { "shiuchi" => "s.shiuchi[at]gmail.com" }
   s.platform     = :ios
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/shiuchi/SwiftCallBack" , :tag => s.version.to_s}
-  s.source_files  = "SwiftCallback/Classes", "SwiftCallback/Classes/**/*"
+  s.source       = { :git => "https://github.com/shiuchi/SwiftCallBack.git" , :tag => s.version.to_s}
+  s.source_files  = "SwiftCallback/SwiftCallback/Classes", "SwiftCallback/SwiftCallback/Classes/**/*"
   s.requires_arc = true
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '(inherited)′,′LIBRARYSEARCHPATHS′=>′(inherited)', 'OTHER_LDFLAGS' => '$(inherited)' }
   
