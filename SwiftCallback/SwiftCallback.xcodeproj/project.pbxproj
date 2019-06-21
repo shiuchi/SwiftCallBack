@@ -7,222 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F40B61CB21CFCFC900494FC0 /* Callback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40B61C121CFCFC900494FC0 /* Callback.framework */; };
-		F40B61D021CFCFC900494FC0 /* CallbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40B61CF21CFCFC900494FC0 /* CallbackTests.swift */; };
-		F40B61D221CFCFC900494FC0 /* Callback.h in Headers */ = {isa = PBXBuildFile; fileRef = F40B61C421CFCFC900494FC0 /* Callback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4D7869C21CFD462009681ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7869B21CFD462009681ED /* AppDelegate.swift */; };
-		F4D7869E21CFD462009681ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7869D21CFD462009681ED /* ViewController.swift */; };
-		F4D786A121CFD462009681ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D7869F21CFD462009681ED /* Main.storyboard */; };
-		F4D786A321CFD463009681ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D786A221CFD463009681ED /* Assets.xcassets */; };
-		F4D786A621CFD463009681ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D786A421CFD463009681ED /* LaunchScreen.storyboard */; };
-		F4D786AC21CFD472009681ED /* Callback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40B61C121CFCFC900494FC0 /* Callback.framework */; };
-		F4D786AE21CFD4F1009681ED /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D786AD21CFD4F1009681ED /* Callback.swift */; };
+		F4932CE722BBCC3B004397BB /* SwiftCallback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4932CDD22BBCC3B004397BB /* SwiftCallback.framework */; };
+		F4932CEC22BBCC3B004397BB /* SwiftCallbackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932CEB22BBCC3B004397BB /* SwiftCallbackTests.swift */; };
+		F4932CEE22BBCC3B004397BB /* SwiftCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = F4932CE022BBCC3B004397BB /* SwiftCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4932CF822BBCC57004397BB /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932CF722BBCC57004397BB /* Callback.swift */; };
+		F4932CF922BBCC57004397BB /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932CF722BBCC57004397BB /* Callback.swift */; };
+		F4932D2522BBD211004397BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932D2422BBD211004397BB /* AppDelegate.swift */; };
+		F4932D2722BBD211004397BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932D2622BBD211004397BB /* ViewController.swift */; };
+		F4932D2A22BBD211004397BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4932D2822BBD211004397BB /* Main.storyboard */; };
+		F4932D2C22BBD212004397BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4932D2B22BBD212004397BB /* Assets.xcassets */; };
+		F4932D2F22BBD212004397BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4932D2D22BBD212004397BB /* LaunchScreen.storyboard */; };
+		F4932D3422BBD21F004397BB /* Callback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932CF722BBCC57004397BB /* Callback.swift */; };
+		F4932D3622BCECD4004397BB /* SampleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4932D3522BCECD4004397BB /* SampleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F40B61CC21CFCFC900494FC0 /* PBXContainerItemProxy */ = {
+		F4932CE822BBCC3B004397BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F40B61B821CFCFC900494FC0 /* Project object */;
+			containerPortal = F4932CD422BBCC3B004397BB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F40B61C021CFCFC900494FC0;
-			remoteInfo = Callback;
+			remoteGlobalIDString = F4932CDC22BBCC3B004397BB;
+			remoteInfo = SwiftCallback;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F40B61C121CFCFC900494FC0 /* Callback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Callback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40B61C421CFCFC900494FC0 /* Callback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callback.h; sourceTree = "<group>"; };
-		F40B61C521CFCFC900494FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F40B61CA21CFCFC900494FC0 /* CallbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40B61CF21CFCFC900494FC0 /* CallbackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackTests.swift; sourceTree = "<group>"; };
-		F40B61D121CFCFC900494FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4D7869921CFD462009681ED /* CallbackDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallbackDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4D7869B21CFD462009681ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4D7869D21CFD462009681ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4D786A021CFD462009681ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F4D786A221CFD463009681ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F4D786A521CFD463009681ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4D786A721CFD463009681ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4D786AD21CFD4F1009681ED /* Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
+		F4932CDD22BBCC3B004397BB /* SwiftCallback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCallback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4932CE022BBCC3B004397BB /* SwiftCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCallback.h; sourceTree = "<group>"; };
+		F4932CE122BBCC3B004397BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4932CE622BBCC3B004397BB /* SwiftCallbackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCallbackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4932CEB22BBCC3B004397BB /* SwiftCallbackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCallbackTests.swift; sourceTree = "<group>"; };
+		F4932CED22BBCC3B004397BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4932CF722BBCC57004397BB /* Callback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Callback.swift; sourceTree = "<group>"; };
+		F4932D2222BBD211004397BB /* SwiftCallbackSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCallbackSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4932D2422BBD211004397BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4932D2622BBD211004397BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4932D2922BBD211004397BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4932D2B22BBD212004397BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4932D2E22BBD212004397BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4932D3022BBD212004397BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4932D3522BCECD4004397BB /* SampleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F40B61BE21CFCFC900494FC0 /* Frameworks */ = {
+		F4932CDA22BBCC3B004397BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40B61C721CFCFC900494FC0 /* Frameworks */ = {
+		F4932CE322BBCC3B004397BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40B61CB21CFCFC900494FC0 /* Callback.framework in Frameworks */,
+				F4932CE722BBCC3B004397BB /* SwiftCallback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D7869621CFD462009681ED /* Frameworks */ = {
+		F4932D1F22BBD211004397BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D786AC21CFD472009681ED /* Callback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F40B61B721CFCFC900494FC0 = {
+		F4932CD322BBCC3B004397BB = {
 			isa = PBXGroup;
 			children = (
-				F40B61C321CFCFC900494FC0 /* Callback */,
-				F40B61CE21CFCFC900494FC0 /* CallbackTests */,
-				F4D7869A21CFD462009681ED /* CallbackDemo */,
-				F40B61C221CFCFC900494FC0 /* Products */,
-				F4D786AB21CFD472009681ED /* Frameworks */,
+				F4932CDF22BBCC3B004397BB /* SwiftCallback */,
+				F4932CEA22BBCC3B004397BB /* SwiftCallbackTests */,
+				F4932D2322BBD211004397BB /* SwiftCallbackSample */,
+				F4932CDE22BBCC3B004397BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F40B61C221CFCFC900494FC0 /* Products */ = {
+		F4932CDE22BBCC3B004397BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F40B61C121CFCFC900494FC0 /* Callback.framework */,
-				F40B61CA21CFCFC900494FC0 /* CallbackTests.xctest */,
-				F4D7869921CFD462009681ED /* CallbackDemo.app */,
+				F4932CDD22BBCC3B004397BB /* SwiftCallback.framework */,
+				F4932CE622BBCC3B004397BB /* SwiftCallbackTests.xctest */,
+				F4932D2222BBD211004397BB /* SwiftCallbackSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F40B61C321CFCFC900494FC0 /* Callback */ = {
+		F4932CDF22BBCC3B004397BB /* SwiftCallback */ = {
 			isa = PBXGroup;
 			children = (
-				F40B61C421CFCFC900494FC0 /* Callback.h */,
-				F40B61C521CFCFC900494FC0 /* Info.plist */,
-				F4D786AD21CFD4F1009681ED /* Callback.swift */,
+				F4932CE022BBCC3B004397BB /* SwiftCallback.h */,
+				F4932CE122BBCC3B004397BB /* Info.plist */,
+				F4932CF722BBCC57004397BB /* Callback.swift */,
 			);
-			path = Callback;
+			path = SwiftCallback;
 			sourceTree = "<group>";
 		};
-		F40B61CE21CFCFC900494FC0 /* CallbackTests */ = {
+		F4932CEA22BBCC3B004397BB /* SwiftCallbackTests */ = {
 			isa = PBXGroup;
 			children = (
-				F40B61CF21CFCFC900494FC0 /* CallbackTests.swift */,
-				F40B61D121CFCFC900494FC0 /* Info.plist */,
+				F4932CEB22BBCC3B004397BB /* SwiftCallbackTests.swift */,
+				F4932CED22BBCC3B004397BB /* Info.plist */,
 			);
-			path = CallbackTests;
+			path = SwiftCallbackTests;
 			sourceTree = "<group>";
 		};
-		F4D7869A21CFD462009681ED /* CallbackDemo */ = {
+		F4932D2322BBD211004397BB /* SwiftCallbackSample */ = {
 			isa = PBXGroup;
 			children = (
-				F4D7869B21CFD462009681ED /* AppDelegate.swift */,
-				F4D7869D21CFD462009681ED /* ViewController.swift */,
-				F4D7869F21CFD462009681ED /* Main.storyboard */,
-				F4D786A221CFD463009681ED /* Assets.xcassets */,
-				F4D786A421CFD463009681ED /* LaunchScreen.storyboard */,
-				F4D786A721CFD463009681ED /* Info.plist */,
+				F4932D2422BBD211004397BB /* AppDelegate.swift */,
+				F4932D2622BBD211004397BB /* ViewController.swift */,
+				F4932D2822BBD211004397BB /* Main.storyboard */,
+				F4932D2B22BBD212004397BB /* Assets.xcassets */,
+				F4932D2D22BBD212004397BB /* LaunchScreen.storyboard */,
+				F4932D3022BBD212004397BB /* Info.plist */,
+				F4932D3522BCECD4004397BB /* SampleButton.swift */,
 			);
-			path = CallbackDemo;
-			sourceTree = "<group>";
-		};
-		F4D786AB21CFD472009681ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
+			path = SwiftCallbackSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F40B61BC21CFCFC900494FC0 /* Headers */ = {
+		F4932CD822BBCC3B004397BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40B61D221CFCFC900494FC0 /* Callback.h in Headers */,
+				F4932CEE22BBCC3B004397BB /* SwiftCallback.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F40B61C021CFCFC900494FC0 /* Callback */ = {
+		F4932CDC22BBCC3B004397BB /* SwiftCallback */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F40B61D521CFCFC900494FC0 /* Build configuration list for PBXNativeTarget "Callback" */;
+			buildConfigurationList = F4932CF122BBCC3B004397BB /* Build configuration list for PBXNativeTarget "SwiftCallback" */;
 			buildPhases = (
-				F40B61BC21CFCFC900494FC0 /* Headers */,
-				F40B61BD21CFCFC900494FC0 /* Sources */,
-				F40B61BE21CFCFC900494FC0 /* Frameworks */,
-				F40B61BF21CFCFC900494FC0 /* Resources */,
+				F4932CD822BBCC3B004397BB /* Headers */,
+				F4932CD922BBCC3B004397BB /* Sources */,
+				F4932CDA22BBCC3B004397BB /* Frameworks */,
+				F4932CDB22BBCC3B004397BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Callback;
-			productName = Callback;
-			productReference = F40B61C121CFCFC900494FC0 /* Callback.framework */;
+			name = SwiftCallback;
+			productName = SwiftCallback;
+			productReference = F4932CDD22BBCC3B004397BB /* SwiftCallback.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F40B61C921CFCFC900494FC0 /* CallbackTests */ = {
+		F4932CE522BBCC3B004397BB /* SwiftCallbackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F40B61D821CFCFC900494FC0 /* Build configuration list for PBXNativeTarget "CallbackTests" */;
+			buildConfigurationList = F4932CF422BBCC3B004397BB /* Build configuration list for PBXNativeTarget "SwiftCallbackTests" */;
 			buildPhases = (
-				F40B61C621CFCFC900494FC0 /* Sources */,
-				F40B61C721CFCFC900494FC0 /* Frameworks */,
-				F40B61C821CFCFC900494FC0 /* Resources */,
+				F4932CE222BBCC3B004397BB /* Sources */,
+				F4932CE322BBCC3B004397BB /* Frameworks */,
+				F4932CE422BBCC3B004397BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F40B61CD21CFCFC900494FC0 /* PBXTargetDependency */,
+				F4932CE922BBCC3B004397BB /* PBXTargetDependency */,
 			);
-			name = CallbackTests;
-			productName = CallbackTests;
-			productReference = F40B61CA21CFCFC900494FC0 /* CallbackTests.xctest */;
+			name = SwiftCallbackTests;
+			productName = SwiftCallbackTests;
+			productReference = F4932CE622BBCC3B004397BB /* SwiftCallbackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F4D7869821CFD462009681ED /* CallbackDemo */ = {
+		F4932D2122BBD211004397BB /* SwiftCallbackSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4D786AA21CFD463009681ED /* Build configuration list for PBXNativeTarget "CallbackDemo" */;
+			buildConfigurationList = F4932D3122BBD212004397BB /* Build configuration list for PBXNativeTarget "SwiftCallbackSample" */;
 			buildPhases = (
-				F4D7869521CFD462009681ED /* Sources */,
-				F4D7869621CFD462009681ED /* Frameworks */,
-				F4D7869721CFD462009681ED /* Resources */,
+				F4932D1E22BBD211004397BB /* Sources */,
+				F4932D1F22BBD211004397BB /* Frameworks */,
+				F4932D2022BBD211004397BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CallbackDemo;
-			productName = CallbackDemo;
-			productReference = F4D7869921CFD462009681ED /* CallbackDemo.app */;
+			name = SwiftCallbackSample;
+			productName = SwiftCallbackSample;
+			productReference = F4932D2222BBD211004397BB /* SwiftCallbackSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F40B61B821CFCFC900494FC0 /* Project object */ = {
+		F4932CD422BBCC3B004397BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = shiuchi;
 				TargetAttributes = {
-					F40B61C021CFCFC900494FC0 = {
-						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+					F4932CDC22BBCC3B004397BB = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
-					F40B61C921CFCFC900494FC0 = {
-						CreatedOnToolsVersion = 10.1;
+					F4932CE522BBCC3B004397BB = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
-					F4D7869821CFD462009681ED = {
-						CreatedOnToolsVersion = 10.1;
+					F4932D2122BBD211004397BB = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = F40B61BB21CFCFC900494FC0 /* Build configuration list for PBXProject "Callback" */;
+			buildConfigurationList = F4932CD722BBCC3B004397BB /* Build configuration list for PBXProject "SwiftCallback" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,94 +225,97 @@
 				en,
 				Base,
 			);
-			mainGroup = F40B61B721CFCFC900494FC0;
-			productRefGroup = F40B61C221CFCFC900494FC0 /* Products */;
+			mainGroup = F4932CD322BBCC3B004397BB;
+			productRefGroup = F4932CDE22BBCC3B004397BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F40B61C021CFCFC900494FC0 /* Callback */,
-				F40B61C921CFCFC900494FC0 /* CallbackTests */,
-				F4D7869821CFD462009681ED /* CallbackDemo */,
+				F4932CDC22BBCC3B004397BB /* SwiftCallback */,
+				F4932CE522BBCC3B004397BB /* SwiftCallbackTests */,
+				F4932D2122BBD211004397BB /* SwiftCallbackSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F40B61BF21CFCFC900494FC0 /* Resources */ = {
+		F4932CDB22BBCC3B004397BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40B61C821CFCFC900494FC0 /* Resources */ = {
+		F4932CE422BBCC3B004397BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D7869721CFD462009681ED /* Resources */ = {
+		F4932D2022BBD211004397BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D786A621CFD463009681ED /* LaunchScreen.storyboard in Resources */,
-				F4D786A321CFD463009681ED /* Assets.xcassets in Resources */,
-				F4D786A121CFD462009681ED /* Main.storyboard in Resources */,
+				F4932D2F22BBD212004397BB /* LaunchScreen.storyboard in Resources */,
+				F4932D2C22BBD212004397BB /* Assets.xcassets in Resources */,
+				F4932D2A22BBD211004397BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F40B61BD21CFCFC900494FC0 /* Sources */ = {
+		F4932CD922BBCC3B004397BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D786AE21CFD4F1009681ED /* Callback.swift in Sources */,
+				F4932CF822BBCC57004397BB /* Callback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40B61C621CFCFC900494FC0 /* Sources */ = {
+		F4932CE222BBCC3B004397BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40B61D021CFCFC900494FC0 /* CallbackTests.swift in Sources */,
+				F4932CF922BBCC57004397BB /* Callback.swift in Sources */,
+				F4932CEC22BBCC3B004397BB /* SwiftCallbackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4D7869521CFD462009681ED /* Sources */ = {
+		F4932D1E22BBD211004397BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D7869E21CFD462009681ED /* ViewController.swift in Sources */,
-				F4D7869C21CFD462009681ED /* AppDelegate.swift in Sources */,
+				F4932D2722BBD211004397BB /* ViewController.swift in Sources */,
+				F4932D3422BBD21F004397BB /* Callback.swift in Sources */,
+				F4932D2522BBD211004397BB /* AppDelegate.swift in Sources */,
+				F4932D3622BCECD4004397BB /* SampleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F40B61CD21CFCFC900494FC0 /* PBXTargetDependency */ = {
+		F4932CE922BBCC3B004397BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F40B61C021CFCFC900494FC0 /* Callback */;
-			targetProxy = F40B61CC21CFCFC900494FC0 /* PBXContainerItemProxy */;
+			target = F4932CDC22BBCC3B004397BB /* SwiftCallback */;
+			targetProxy = F4932CE822BBCC3B004397BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4D7869F21CFD462009681ED /* Main.storyboard */ = {
+		F4932D2822BBD211004397BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4D786A021CFD462009681ED /* Base */,
+				F4932D2922BBD211004397BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F4D786A421CFD463009681ED /* LaunchScreen.storyboard */ = {
+		F4932D2D22BBD212004397BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F4D786A521CFD463009681ED /* Base */,
+				F4932D2E22BBD212004397BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -325,7 +323,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F40B61D321CFCFC900494FC0 /* Debug */ = {
+		F4932CEF22BBCC3B004397BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,19 +375,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F40B61D421CFCFC900494FC0 /* Release */ = {
+		F4932CF022BBCC3B004397BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,19 +434,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F40B61D621CFCFC900494FC0 /* Debug */ = {
+		F4932CF222BBCC3B004397BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -458,14 +458,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Callback/Info.plist;
+				INFOPLIST_FILE = SwiftCallback/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Callback.Callback;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallback;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -474,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		F40B61D721CFCFC900494FC0 /* Release */ = {
+		F4932CF322BBCC3B004397BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -485,14 +485,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Callback/Info.plist;
+				INFOPLIST_FILE = SwiftCallback/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Callback.Callback;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallback;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -500,74 +500,74 @@
 			};
 			name = Release;
 		};
-		F40B61D921CFCFC900494FC0 /* Debug */ = {
+		F4932CF522BBCC3B004397BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 684D7JEAFF;
-				INFOPLIST_FILE = CallbackTests/Info.plist;
+				INFOPLIST_FILE = SwiftCallbackTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Callback.CallbackTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallbackTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F40B61DA21CFCFC900494FC0 /* Release */ = {
+		F4932CF622BBCC3B004397BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 684D7JEAFF;
-				INFOPLIST_FILE = CallbackTests/Info.plist;
+				INFOPLIST_FILE = SwiftCallbackTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Callback.CallbackTests;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallbackTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F4D786A821CFD463009681ED /* Debug */ = {
+		F4932D3222BBD212004397BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 684D7JEAFF;
-				INFOPLIST_FILE = CallbackDemo/Info.plist;
+				INFOPLIST_FILE = SwiftCallbackSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CallbackDemo.CallbackDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallbackSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F4D786A921CFD463009681ED /* Release */ = {
+		F4932D3322BBD212004397BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 684D7JEAFF;
-				INFOPLIST_FILE = CallbackDemo/Info.plist;
+				INFOPLIST_FILE = SwiftCallbackSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CallbackDemo.CallbackDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftCallback.SwiftCallbackSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,43 +577,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F40B61BB21CFCFC900494FC0 /* Build configuration list for PBXProject "Callback" */ = {
+		F4932CD722BBCC3B004397BB /* Build configuration list for PBXProject "SwiftCallback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F40B61D321CFCFC900494FC0 /* Debug */,
-				F40B61D421CFCFC900494FC0 /* Release */,
+				F4932CEF22BBCC3B004397BB /* Debug */,
+				F4932CF022BBCC3B004397BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F40B61D521CFCFC900494FC0 /* Build configuration list for PBXNativeTarget "Callback" */ = {
+		F4932CF122BBCC3B004397BB /* Build configuration list for PBXNativeTarget "SwiftCallback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F40B61D621CFCFC900494FC0 /* Debug */,
-				F40B61D721CFCFC900494FC0 /* Release */,
+				F4932CF222BBCC3B004397BB /* Debug */,
+				F4932CF322BBCC3B004397BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F40B61D821CFCFC900494FC0 /* Build configuration list for PBXNativeTarget "CallbackTests" */ = {
+		F4932CF422BBCC3B004397BB /* Build configuration list for PBXNativeTarget "SwiftCallbackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F40B61D921CFCFC900494FC0 /* Debug */,
-				F40B61DA21CFCFC900494FC0 /* Release */,
+				F4932CF522BBCC3B004397BB /* Debug */,
+				F4932CF622BBCC3B004397BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4D786AA21CFD463009681ED /* Build configuration list for PBXNativeTarget "CallbackDemo" */ = {
+		F4932D3122BBD212004397BB /* Build configuration list for PBXNativeTarget "SwiftCallbackSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4D786A821CFD463009681ED /* Debug */,
-				F4D786A921CFD463009681ED /* Release */,
+				F4932D3222BBD212004397BB /* Debug */,
+				F4932D3322BBD212004397BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F40B61B821CFCFC900494FC0 /* Project object */;
+	rootObject = F4932CD422BBCC3B004397BB /* Project object */;
 }

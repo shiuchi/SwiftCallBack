@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CallbackDemo
+//  SwiftCallbackSample
 //
-//  Created by 志内幸彦 on 2018/12/23.
-//  Copyright © 2018 shiuchi. All rights reserved.
+//  Created by shiuchi on 2019/06/20.
+//  Copyright © 2019 shiuchi. All rights reserved.
 //
 
 import UIKit
