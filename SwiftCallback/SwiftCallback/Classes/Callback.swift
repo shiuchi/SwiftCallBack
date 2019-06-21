@@ -21,7 +21,7 @@ private protocol CallbackProtocol: Callable {
 
 /// callback
 public struct Callback<Params, Return>: CallbackProtocol {
-    typealias Params = Params
+    public typealias Params = Params
     
     let handler: Handler
     
@@ -41,7 +41,7 @@ public struct Callback<Params, Return>: CallbackProtocol {
     }
 }
 
-extension Callback where Callback.Params == Void {
+public extension Callback where Callback.Params == Void {
     init(_ handler: @escaping () -> Return) {
         self.handler = {
             let _ = handler()
@@ -50,7 +50,7 @@ extension Callback where Callback.Params == Void {
 }
 
 public struct WeakCallback<Target: AnyObject, Params, Return>: CallbackProtocol {
-    typealias Params = Params
+    public typealias Params = Params
     
     let handler: Handler
     
@@ -72,7 +72,7 @@ public struct WeakCallback<Target: AnyObject, Params, Return>: CallbackProtocol 
     }
 }
 
-extension WeakCallback where WeakCallback.Params == Void {
+public extension WeakCallback where WeakCallback.Params == Void {
     init(_ target: Target, handler: @escaping (Target) -> () -> Return) {
         self.handler = { [weak target] in
             guard let target = target else {
